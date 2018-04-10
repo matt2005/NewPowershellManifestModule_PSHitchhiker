@@ -169,7 +169,7 @@
 
 <message condition="($PLASTER_PARAM_Editor -eq 'VSCode')">
 
-      Creating VSCode seetings and tasks
+      Creating VSCode settings and tasks
 
 </message>
 
@@ -199,8 +199,8 @@
         <requireModule name="InvokeBuild"
             message="'nWithout InvokeBuild, you will not be able to run the provided build tasks."/>
 
-        <requireModule name="PSScriptAnalyser"
-            message="`nWithout PSScriptAnalyser, you will not be able to lint your code."/>
+        <requireModule name="PSScriptAnalyzer"
+            message="`nWithout PSScriptAnalyzer, you will not be able to lint your code."/>
 
         <message>
 A Pester test has been created to validate the module's manifest file.
